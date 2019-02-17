@@ -1,0 +1,254 @@
+/* color swatch: */
+body {
+
+    background-color: #a9bcc2;
+    background-color: #80aebd;
+    background-color: #323433;
+    background-color: #cbbc97;
+    background-color: #81979b;
+}
+
+/* #primary-nav{
+    background-color:lightgray;
+}
+
+html { 
+    background: url('../images/graytone.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.nav-link {
+    padding-left:20px !important;
+}
+
+nav.fill ul li a {
+    transition: all 2s !important;
+  }
+  
+  nav.fill ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+  }
+  nav.fill ul li a:hover {
+    color:lightblue !important;
+    z-index: 1 !important;
+  }
+  nav.fill ul li a:hover:after {
+    z-index: -10 !important;
+    animation: fill 1s forwards !important;
+    -webkit-animation: fill 1s forwards !important;
+    -moz-animation: fill 1s forwards !important;
+    opacity: 1 !important;
+  } */
+
+  body {
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      background:darkgray;
+      
+      font-size:1.1em;
+      line-height:1.5;
+      text-align:center;
+  }
+
+  main {
+      padding-top:10px;
+  }
+
+  img {
+      display:block;
+      width:100%;
+      height:auto;
+  }
+
+  h1,h2,h3 {
+      margin:0;
+      padding:1em 0;
+      
+  }
+  p {
+      padding:1em 0;
+  }
+
+  .btn {
+      display:inline-block;
+      background:darkgray;
+      color:white;
+      padding:1em 2em;
+      border:2px solid #666;
+      text-decoration:none;
+  }
+
+  .btn:hover{
+    background: #cbbc97;
+  }
+
+  /* navbar */
+
+  #navbar {
+      overflow:hidden;
+      background-color:#80aebd;
+      z-index:2;
+      
+  }
+
+  #navbar a {
+      float:left;
+      font-size: 20px;
+      
+      text-align: center;
+      letter-spacing: .1em;
+      text-decoration:none;
+      display:block;
+      color:white;
+      text-align:center;
+      padding:12px;
+    
+
+  }
+
+  #navbar a:hover{
+    background: #cbbc97;
+      
+  }
+
+  .sticky {
+      position:fixed;
+      top:0;
+      width:100%;
+  }
+
+  /* header showcase section */
+  #showcase {
+      min-height:425px;
+      text-align:center;
+      color:white;
+  }
+
+  #showcase .back-image {
+      position:absolute;
+      background:url("../images/graytone.jpg");
+      background-position:center;
+      background-repeat:no-repeat;
+      width:100%;
+      height:500px;
+      z-index:-1;
+      
+
+  }
+
+  #showcase h1 {
+      padding-top:80px;
+  }
+
+  #showcase .content-wrap {
+    padding:0 1.5em;
+  }
+
+  /* Section A */
+
+  #section-z {
+      padding-bottom:3em;
+      background-color:white;
+  }
+
+ 
+
+ 
+
+  #section-a {
+      background:white;
+      color:gray;
+      padding-bottom:2em;
+  }
+
+  #section-b {
+      padding:1em 1em 1em;
+  }
+
+  #section-b ul {
+      list-style: none;
+      padding:0;
+      margin:0;
+  }
+
+  #section-b li {
+      background:white;
+      color:black;
+      margin-bottom:1em;
+  }
+
+  .card-content {
+    padding:1.5em;
+  }
+
+  #section-c {
+      background:white;
+      color:black;
+  }
+
+  #section-d .box {
+      padding:2em;
+      color:white;
+  }
+  
+  #section-d .box:first-child {
+    background:#cbbc97;
+  }
+
+  @media(min-width:700px){
+      .grid {
+          display:grid;
+          grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+
+      }
+  
+  #section-a .text-content {
+    columns:2;
+    column-gap:4em;
+  }
+
+  #section-a .text-content {
+      padding-top:0;
+  }
+
+  .content-wrap,
+  #section-b ul {
+      grid-column:2/4;
+      
+  }
+
+  #section-b ul{
+      display:flex;
+      justify-content:space-around;
+      
+  }
+
+  #section-b li {
+      width:22%;
+  }
+
+  .box, #main-footer div {
+      grid-column: span 2;
+  } 
+
+ 
+  #photo-me img{
+      height:300px;
+      width:260px;
+      border-radius:50%;
+      float:left;
+      border:2px solid #cbbc97;
+  }
+
+  .photo-wrap {
+      float:left;
+      padding-left:25px;
+      padding-right:25px;
+  }
+}  
