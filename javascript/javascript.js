@@ -15,3 +15,8 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+$(".card").on("click", function(){
+    var url = $(this).attr("data-url");
+    window.open(url);
+})
