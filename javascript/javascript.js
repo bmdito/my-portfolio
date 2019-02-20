@@ -16,7 +16,12 @@ function myFunction() {
   }
 }
 
-$(".card").on("click", function(){
+$(".btn-repo").on("click", function(){
     var url = $(this).attr("data-url");
+    window.open(url);
+})
+
+$(".btn-style").on("click", function(){
+    var codeurl = $(this).attr("data-code");
     window.open(url);
 })

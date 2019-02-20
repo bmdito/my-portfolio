@@ -158,11 +158,25 @@
       
   }
 
+ .butt {
+     border:2px solid blue;
+     border-radius:20px;
+     box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+     transition: box-shadow .5s;
+     color:blue;
+ }
+
   #section-b li:hover {
     box-shadow: 15px 15px 15px rgba(0,0,0,.5);
     cursor:pointer;
   }
 
+  .butt:hover{
+    box-shadow: 15px 15px 15px rgba(0,0,0,.5);
+    cursor:pointer;
+    color:green;
+  }
+  
   #section-c {
       padding-bottom:2em;
       border-bottom:10px solid lightgray;
