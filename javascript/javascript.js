@@ -21,7 +21,7 @@ $(".btn-repo").on("click", function(){
     window.open(url);
 })
 
-$(".btn-style").on("click", function(){
+$(".btn-code").on("click", function(){
     var codeurl = $(this).attr("data-code");
-    window.open(url);
+    window.open(codeurl);
 })
