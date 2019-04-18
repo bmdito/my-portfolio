@@ -14,7 +14,7 @@
       margin:0;
       font-family: 'Patua One', cursive;
 
-      background:#a9bcc2;
+      /* background:#a9bcc2; */
       
       font-size:1.1em;
       line-height:1.5;
@@ -137,10 +137,20 @@
   }
 
   #section-b {
-      padding:1em 1em 1em;
-      border-top:10px solid lightgray;
+      /* padding:1em 1em 1em; */
+      /* border-top:10px solid lightgray; */
       border-bottom:10px solid lightgray;
       padding-bottom:4em;
+  }
+
+  .plax{
+      background-image:url("../images/mnt_lake.jpg");
+      min-height:140px;
+      background-attachment:fixed;
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size:cover;
+
   }
 
   #section-b ul {
@@ -176,6 +186,16 @@
     cursor:pointer;
     color:green;
   }
+
+  .plaxC{
+    background-image:url("../images/red_forest.jpg");
+    min-height:140px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
   
   #section-c {
       padding-bottom:2em;
@@ -207,9 +227,19 @@
       color:black;
   }
 
+  .plaxD{
+    background-image:url("../images/lush.jpg");
+    min-height:140px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
   #section-d .box {
       padding:2em;
-      color:white;
+      color:#666;
       
   }
   
@@ -267,6 +297,11 @@
       grid-column:span 4;
       
   }
+
+  .plax, .plaxC, .plaxD {
+      grid-column:span 4;
+  }
+
 
   #section-b li {
       width:22%;

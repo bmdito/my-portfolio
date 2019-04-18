@@ -1,0 +1,8 @@
+I think we can kill the process in Windows as well, with :
+
+netstat -a -o -n (running it in command prompt and then checking what is the PID of the process using our :8080 port)
+
+then running,
+
+taskkill /f /pid <#>
+I use it on Windows 10 so can confirm it works for it, cant say about other windows versions.
