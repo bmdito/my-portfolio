@@ -173,7 +173,7 @@
      border-radius:20px;
      box-shadow: 5px 5px 5px rgba(0,0,0,.5);
      transition: box-shadow .5s;
-     color:blue;
+     color:black;
  }
 
   #section-b li:hover {
@@ -184,7 +184,7 @@
   .butt:hover{
     box-shadow: 15px 15px 15px rgba(0,0,0,.5);
     cursor:pointer;
-    color:green;
+    color:blue;
   }
 
   .plaxC{
@@ -219,6 +219,7 @@
 
   .card-title {
       padding:0em;
+      padding-bottom:1em;
       
   }
 
@@ -239,7 +240,7 @@
 
   #section-d .box {
       padding:2em;
-      color:rgb(26, 16, 168);;
+      color:black;
       
   }
   
@@ -249,6 +250,10 @@
 
   .content-wrap {
       margin:0 1em 0 1em;
+  }
+
+  .contentD {
+      color:black;
   }
 
   #main-footer{
