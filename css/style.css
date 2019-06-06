@@ -21,9 +21,7 @@
       text-align:center;
   }
 
-  main {
-      padding-top:10px;
-  }
+
 
   img {
       display:block;
@@ -33,7 +31,7 @@
 
   h1,h2,h3 {
       margin:0;
-      padding:1em 0;
+      
       
   }
   p {
@@ -48,7 +46,9 @@
       border:2px solid #666;
       text-decoration:none;
       margin-bottom:3em;
+      font-size:22px;
   }
+
 
   .btn:hover{
     background: #cbbc97;
@@ -67,7 +67,7 @@
 
   #navbar a {
       float:left;
-      font-size: 20px;
+      font-size: 25px;
       
       text-align: center;
       letter-spacing: .1em;
@@ -100,22 +100,31 @@
 
   #showcase .back-image {
       position:absolute;
-      background:url("../images/graytone.jpg");
+      background:url("../images/moon.jpg");
       background-position:center;
       background-repeat:no-repeat;
       width:100%;
-      height:500px;
+      height:100%;
       z-index:-1;
       
 
   }
 
   #showcase h1 {
-      padding-top:80px;
+      padding-top:50px;
+      font-size:50px;
   }
+
+  #showcase h2 {
+    padding-bottom:100px;
+}
 
   #showcase .content-wrap {
     padding:0 1.5em;
+  }
+
+  .content-title {
+      padding:1em 0;
   }
 
   /* Section A */
