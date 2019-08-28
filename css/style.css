@@ -274,6 +274,11 @@ p {
     color: black;
 }
 
+.link-g {
+    color: black;
+    font-size: 13px;
+}
+
 #main-footer {
     height: 60px;
     background-color: darkgray;
@@ -341,11 +346,11 @@ p {
 
     #photo-me img {
         height: 300px;
-        width: 260px;
+        width: auto;
         border-radius: 50%;
         float: left;
         border: 2px solid #cbbc97;
-        margin-right: 2em;
+        margin-right: 4em;
 
     }
 
